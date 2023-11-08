@@ -207,11 +207,11 @@ body #cdawrap {
 }
 
 .intro__title {
-    place-items: center;
+    place-items: right;
     margin: 0;
     line-height: .9;
     display: grid;
-    margin-top: 15vh;
+    margin-top: vh;
     font-weight: 400;
 }
 
