@@ -25,6 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('app.urls', namespace='app')),
     path('RMC/', include('RMC.urls', namespace='RMC')),
+    path('RMC2_0/', include('RMC2_0.urls', namespace='RMC2_0')),
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #installed apps
     'app',
     'RMC',
+    'RMC2_0',
 ]
 
 MIDDLEWARE = [
